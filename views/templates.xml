@@ -5,7 +5,7 @@
 		<template id="decibelinsight_tracking" inherit_id="website.layout" name="DecibelInsight tracking">
 			<xpath expr="//div[@id='wrapwrap']" position="before">
 				<t t-if="website and website.decibelinsight">
-                    <!-- Decibel Insight - belsonno.de -->
+                    <!-- Decibel Insight-->
                     <t t-raw="website.decibelinsight_script" />
 				</t>
 			</xpath>

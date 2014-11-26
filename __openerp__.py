@@ -3,16 +3,16 @@
     'name': "DecibelInsight",
 
     'summary': """
-        DecibelInsight tracking""",
+        DecibelInsight Tracking""",
 
     'description': """
-         DecibelInsight tracking""",
+         DecibelInsight Tracking""",
 
-    'author': "BLOOPARK SYSTEMS GMBH. & CO. KG",
+    'author': "bloopark systems GmbH & Co. KG",
     'website': "http://www.bloopark.de",
 
     'category': 'Tracking',
-    'version': '0.1',
+    'version': '1.0',
 
     'depends': [
         'base',
