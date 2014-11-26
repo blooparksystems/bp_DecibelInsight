@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+
+		<template id="decibelinsight_tracking" inherit_id="website.layout" name="DecibelInsight tracking">
+			<xpath expr="//div[@id='wrapwrap']" position="before">
+				<t t-if="website and website.decibelinsight">
+                    <!-- Decibel Insight - belsonno.de -->
+                    <t t-raw="website.decibelinsight_script" />
+				</t>
+			</xpath>
+		</template>
+
+	</data>
+</openerp>
