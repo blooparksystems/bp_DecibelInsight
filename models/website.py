@@ -31,8 +31,7 @@ class Website(Model):
     decibelinsight = fields.Boolean(
         string='Use DecibelInsight',
         default=False,
-        help=('if activated DecibelInsight tracking is active'),
-        translate=True
+        help=('if activated DecibelInsight tracking is active')
     )
     decibelinsight_script = fields.Text(
         string='DecibelInsight Script'
