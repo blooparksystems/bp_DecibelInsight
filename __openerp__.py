@@ -20,16 +20,11 @@
 ##############################################################################
 {
     'name': "DecibelInsight",
-
-    'summary': """
-        DecibelInsight Tracking""",
-
-    'description': """
-         DecibelInsight Tracking""",
-
+    'summary': """DecibelInsight Tracking""",
+    'description': """DecibelInsight Tracking""",
     'author': "bloopark systems GmbH & Co. KG",
     'website': "http://www.bloopark.de",
-
+    'license': 'AGPL-3',
     'category': 'Tracking',
     'version': '1.0',
 
@@ -43,9 +38,4 @@
         'views/res_config.xml'
     ],
 
-    'demo': [
-    ],
-
-    'tests': [
-    ],
 }
